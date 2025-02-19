@@ -48,11 +48,7 @@ export const getWeatherIcon = (
       );
     case "thunderstorm":
       return (
-        <img
-          src={Thunderstorm}
-          className={classes.weatherIcon}
-          alt="weatherIcon"
-        />
+        <img src={Thunderstorm} className={classes.weatherIcon} alt="weatherIcon"/>
       );
     case "snow":
       return (
